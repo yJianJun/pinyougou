@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pinyougoutaskservice:war">
+    <output-path>$PROJECT_DIR$/pinyougoutaskservice/target</output-path>
+    <root id="archive" name="pinyougou-task-service-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="pinyougoutaskservice:war exploded" />
+    </root>
+  </artifact>
+</component>

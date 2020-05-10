@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pingyougoucommon:war">
+    <output-path>$PROJECT_DIR$/pingyougoucommon/target</output-path>
+    <root id="archive" name="pingyougou-common-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="pingyougoucommon:war exploded" />
+    </root>
+  </artifact>
+</component>

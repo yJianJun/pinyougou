@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd
+						http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+	<http pattern="/*.html" security="none"></http>
+	<http pattern="/css/**" security="none"></http>
+	<http pattern="/img/**" security="none"></http>
+	<http pattern="/js/**" security="none"></http>
+	<http pattern="/plugins/**" security="none"></http>
+	<http pattern="/seller/add.do" security="none"></http>
+
+	<http use-expressions="false">
+
+		<intercept-url pattern="/**" access="ROLE_SELLER"></intercept-url>
+
+		<form-login login-page="/shoplogin.html" default-target-url="/admin/index.html" authentication-failure-url="/shoplogin.html" always-use-default-target="true"></form-login>
+		<csrf disabled="true"></csrf>
+		<headers>
+			<frame-options policy="SAMEORIGIN"></frame-options>
+		</headers>
+		<logout></logout>
+	</http>
+
+	<authentication-manager>
+		<authentication-provider user-service-ref="userDetailService">
+			<password-encoder ref="passwordEncoder"></password-encoder>
+
+		</authentication-provider>
+
+	</authentication-manager>
+
+	<beans:bean id="passwordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"></beans:bean>
+
+	<beans:bean id="userDetailService" class="com.pinyougou.service.UserDetailServiceImpl">
+		<beans:property name="sellerService" ref="sellerService"></beans:property>
+	</beans:bean>
+
+	<dubbo:application name="pingyougou-shop-web" />
+
+	<dubbo:reference id="sellerService" interface="com.pinyougou.sellergoods.service.SellerService"></dubbo:reference>
+	
+</beans:beans>

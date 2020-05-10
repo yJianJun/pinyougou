@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pingyougoucommon" />
+        <module name="pingyougoudao" />
+        <module name="pingyougoumanagerweb" />
+        <module name="pingyougoupojo" />
+        <module name="pingyougousellergoodsinterface" />
+        <module name="pingyougousellergoodsservice" />
+        <module name="pingyougoushopweb" />
+        <module name="pinyougoucartinterface" />
+        <module name="pinyougoucartservice" />
+        <module name="pinyougoucartweb" />
+        <module name="pinyougoucontentinterface" />
+        <module name="pinyougoucontentservice" />
+        <module name="pinyougouorderinterface" />
+        <module name="pinyougouorderservice" />
+        <module name="pinyougoupageinterface" />
+        <module name="pinyougoupageservice" />
+        <module name="pinyougoupageweb" />
+        <module name="pinyougoupayinterface" />
+        <module name="pinyougoupayservice" />
+        <module name="pinyougouportalweb" />
+        <module name="pinyougousearchinterface" />
+        <module name="pinyougousearchservice" />
+        <module name="pinyougousearchweb" />
+        <module name="pinyougousolrutil" />
+        <module name="pinyougoutaskservice" />
+        <module name="pinyougouuserinterface" />
+        <module name="pinyougouuserservice" />
+        <module name="pinyougouuserweb" />
+        <module name="yejianjun_sms_service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="generatorSqlmapCustom" target="1.8" />
+      <module name="pingyougoucommon" target="1.7" />
+      <module name="pingyougoudao" target="1.7" />
+      <module name="pingyougoumanagerweb" target="1.7" />
+      <module name="pingyougoupojo" target="1.7" />
+      <module name="pingyougousellergoodsinterface" target="1.7" />
+      <module name="pingyougousellergoodsservice" target="1.7" />
+      <module name="pingyougoushopweb" target="1.7" />
+      <module name="pinyougoucartinterface" target="1.7" />
+      <module name="pinyougoucartservice" target="1.7" />
+      <module name="pinyougoucartweb" target="1.7" />
+      <module name="pinyougoucontentinterface" target="1.7" />
+      <module name="pinyougoucontentservice" target="1.7" />
+      <module name="pinyougouorderinterface" target="1.7" />
+      <module name="pinyougouorderservice" target="1.7" />
+      <module name="pinyougoupageinterface" target="1.7" />
+      <module name="pinyougoupageservice" target="1.7" />
+      <module name="pinyougoupageweb" target="1.7" />
+      <module name="pinyougouparent" target="1.7" />
+      <module name="pinyougoupayinterface" target="1.7" />
+      <module name="pinyougoupayservice" target="1.7" />
+      <module name="pinyougouportalweb" target="1.7" />
+      <module name="pinyougousearchinterface" target="1.7" />
+      <module name="pinyougousearchservice" target="1.7" />
+      <module name="pinyougousearchweb" target="1.7" />
+      <module name="pinyougousolrutil" target="1.7" />
+      <module name="pinyougoutaskservice" target="1.7" />
+      <module name="pinyougouuserinterface" target="1.7" />
+      <module name="pinyougouuserservice" target="1.7" />
+      <module name="pinyougouuserweb" target="1.7" />
+      <module name="yejianjun_sms_service" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

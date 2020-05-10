@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/pingyougoumanagerweb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougousellergoodsservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pingyougoushopweb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougoucartservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougoucartweb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougoucontentservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougoupageservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougoupageweb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougoupayservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouportalweb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougousearchservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougousearchweb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougoutaskservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougouuserweb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../yejianjun_sms_service" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pinyougousearchinterface:war">
+    <output-path>$PROJECT_DIR$/pinyougousearchinterface/target</output-path>
+    <root id="archive" name="pinyougou-search-interface-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="pinyougousearchinterface:war exploded" />
+    </root>
+  </artifact>
+</component>
